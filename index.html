@@ -11,15 +11,123 @@
       crossorigin="anonymous"
     />
   </head>
+
   <body style="background-color: #6b6b6b; color: beige;">
+
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel" style="width: 80%; height: 80%; margin: auto;">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <a href="https://colombia.inaturalist.org/taxa/56019-Agapanthus-africanus" target="_blank">
+        <img src="img/flor_1.jpg" alt="lirio_africano" class="d-block w-100">
+        <div class="carousel-caption">
+          <h3>Lirio Africano</h3>
+          <p>Elegancia, Belleza, Resistencia</p>
+        </div>
+      </a>
+    </div>
+    <div class="carousel-item">
+      <a href="https://www.academiadelperfume.com/la-lavanda-y-sus-curiosidades/" target="_blank">
+        <img src="img/flor_2.jpg" alt="lavanda" class="d-block w-100">
+        <div class="carousel-caption">
+          <h3>Lavanda</h3>
+          <p>Calma, Pureza, Devoción</p>
+        </div>
+      </a>
+    </div>
+    <div class="carousel-item">
+      <a href="https://www.jal.co.jp/es/es/guide-to-japan/experiences/cherry-blossom/what-do-cherry-blossoms-represent/index.html" target="_blank">
+      <img src="img/flor_3.jpg" alt="flor de cereso" class="d-block w-100">
+          <div class="carousel-caption">
+            <h3>Flor de Cerezo</h3>
+            <p>Renovación, Belleza Efímera</p>
+          </div>
+      </a>
+    </div>
+    <div class="carousel-item">
+      <a href="https://www.gob.mx/snics/articulos/dalia-simbolo-de-la-floricultura-nacional" target="_blank">
+        <img src="img/flor_4.jpg" alt="dalia negra" class="d-block w-100">
+      </a>
+      <div class="carousel-caption">
+        <h3>Dalia Negra</h3>
+        <p>Elegancia, Belleza, Resistencia</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <a href="https://www.interflora.es/blog/colores-de-la-margarita/" target="_blank">
+        <img src="img/flor_5.jpg" alt="margaritas" class="d-block w-100">
+      </a>
+      <div class="carousel-caption">
+        <h3>Margaritas</h3>
+        <p>Amistad, Pureza, Alegría</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<!-- ----------------------------------------------------------------------------------------------------------------------  -->
+
     <button type="button" class="btn btn-primary">Primary</button>
 
+    <!-- Button to Open the Modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+  Mas informacion
+</button>
+
+<!-- The Modal -->
+<div class="modal" id="myModal" style="color: black;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">¿Quien soy?</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        Soy el programador de esta página y mi objetivo es compartir información interesante y educativa sobre las flores. 
+        A través de este sitio, quiero mostrar la belleza, el simbolismo y la importancia de las flores en nuestras vidas. 
+        Espero que disfrutes explorando este contenido tanto como yo disfruté creándolo.
+      </div>
+      <img src="img/alerta-de-spam.png" alt="">
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
     <div class="container">
-      <h1>hello world in bootstrap</h1>
+      <h1>Descubre la Magia de las Flores</h1>
     </div>
 
     <div class="container-fluid">
-      <p>hola mundo</p>
+      <h2>¡Bienvenidos a mi página dedicada a las flores!</h2>
+      <p>Explora la belleza y el significado de las flores a través de nuestra galería y contenido especial.</p>
     </div>
 
     <!-- inicio de barra de navegacion -->
@@ -71,26 +179,48 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-6" style="background-color: #81053b; color: beige;"  >
-          columna 1 Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Velit quam delectus eveniet voluptatibus molestias eos fuga unde
-          ratione consequatur labore quibusdam tenetur quos esse iste, optio
-          aspernatur aliquid similique at.
+        <div class="col-sm-6" style="background-color: #8b4262; color: beige;"  >
+            Las flores no solo son hermosas a la vista, sino que también tienen un impacto positivo en nuestra salud mental. 
+            Estudios han demostrado que estar rodeado de flores puede reducir el estrés, mejorar el estado de ánimo y fomentar 
+            una sensación de bienestar. Además, su fragancia y colores vibrantes nos conectan con la naturaleza, ayudándonos 
+            a encontrar calma y equilibrio en nuestra vida diaria.
         </div>
-        <div class="col-sm-6" style="background-color: #fd98c4">columna 2</div>
+        <div class="col-sm-6" style="background-color: #fd98c4">
+            Las flores son una parte esencial de la naturaleza y han sido admiradas por su belleza y simbolismo a lo largo de la historia. 
+            Desde las delicadas rosas hasta las vibrantes girasoles, cada flor tiene su propio significado y encanto. En esta página, 
+            exploraremos la diversidad de las flores, su importancia en diferentes culturas y cómo pueden alegrar nuestro entorno.
+        </div>
       </div>
     </div>
 
     <div class="container-fluid">
-          <img src="img/purple-flower-6620617_640.jpg" alt="" style="width: 100%;"/>
+          <div style="text-align: center;">
+            <img src="img/purple-flower-6620617_640.jpg" alt="" style="width: 90%;" />
+          </div></div>
     </div>
 
     <div class="container">
       <div class="row">
-        <div class="col-sm-4" style="background-color: #a3798b;">columna 1</div>
-        <div class="col-sm-4" style="background-color: #aca5a8;" >columna 2</div>
-        <div class="col-sm-2" style="background-color: #c2477c;">columna 3</div>
-        <div class="col-sm-2" style="background-color: #a3798b;">columna 4</div>
+        <div class="col-sm-4" style="background-color: #a3798b;">
+          <h3>Lirio Africano</h3>
+          <p>El lirio africano, conocido científicamente como <i>Agapanthus africanus</i>, es una planta perenne originaria de Sudáfrica. 
+          Sus flores en forma de trompeta, generalmente de color azul o blanco, son un símbolo de elegancia y belleza. 
+          Es una planta resistente y fácil de cuidar, ideal para embellecer jardines y espacios exteriores.</p>
+        </div>
+        <div class="col-sm-4" style="background-color: #aca5a8;">
+          <h3>Lavanda</h3>
+          <p>La lavanda es una planta aromática conocida por su fragancia relajante y propiedades terapéuticas. 
+          Utilizada en aceites esenciales, jabones y productos de cuidado personal, la lavanda también tiene un 
+          simbolismo especial, representando calma, pureza y devoción. Su color característico y su versatilidad 
+          la convierten en una de las flores más apreciadas en todo el mundo.</p>
+        </div>
+        <div class="col-sm-4" style="background-color: #c2477c;">
+          <h3>Flor de Cerezo</h3>
+          <p>La flor de cerezo, conocida como <i>Sakura</i> en Japón, es un símbolo icónico de la belleza efímera y la renovación. 
+          Estas delicadas flores rosadas o blancas florecen brevemente en primavera, marcando el inicio de una nueva temporada. 
+          En la cultura japonesa, la flor de cerezo representa la fragilidad y la transitoriedad de la vida, recordándonos apreciar 
+          cada momento. Su belleza ha inspirado arte, poesía y festivales en todo el mundo.</p>
+        </div>
       </div>
     </div>
 
