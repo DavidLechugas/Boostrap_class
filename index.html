@@ -105,6 +105,30 @@
     <br>
   </div>
 
+  <div class="container-fluid"
+    style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+    <h2>Flores en vivo</h2>
+    <div class="card" style="width:400px">
+      <div class="card-body">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal_video"
+          style="display: block; margin: 0 auto;">ver flores</button>
+      </div>
+    </div>
+    <br>
+  </div>
+
+  <div class="container-fluid"
+    style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+    <h2>Documento pdf</h2>
+    <div class="card" style="width:400px">
+      <div class="card-body">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal_pdf"
+          style="display: block; margin: 0 auto;">ver pdf</button>
+      </div>
+    </div>
+    <br>
+  </div>
+
   <!-- fin de la card -->
   <!-- ----------------------------------------------------------------------------------------------------------------------  -->
 
@@ -136,16 +160,55 @@
             </p>
           </div>
           <img src="img/img_avatar1.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- modal video -->
+  <div class="container">
+    <div class="modal" id="myModal_video" style="color: black;">
+      <div class="modal-dialog">
+        <div class="modal-content">
 
-          <!-- Modal footer -->
-          <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Flores</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body" style="display: flex; justify-content: center; align-items: center;">
+            <video src="img/flores.mp4" controls style="max-width: 100%; height: auto;">
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
       </div>
     </div>
-
   </div>
+  <!-- fin del modal video -->
+  <!-- modal pdf -->
+  <div class="container">
+    <div class="modal" id="myModal_pdf" style="color: black;">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Documento de Guia</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body" style="display: flex; justify-content: center; align-items: center;">
+            <iframe src="doc/archivo1.pdf" width="100%" height="500px"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- fin del modal pdf -->
+
   <!-- fin de modal -->
 
 
