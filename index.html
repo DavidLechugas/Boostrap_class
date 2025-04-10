@@ -12,86 +12,94 @@
 <body style="background-color: #6b6b6b; color: beige;">
 
   <!-- Carousel -->
-  <div id="demo" class="carousel slide" data-bs-ride="carousel" style="width: 80%; height: 80%; margin: auto;">
 
-    <!-- Indicators/dots -->
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
-    </div>
+  <div class="container-fluid" style="width: 100%; height: 80%; margin: auto;">
+    <div id="demo" class="carousel slide" data-bs-ride="carousel" style="width: 100%; height: 80%; margin: auto;">
 
-    <!-- The slideshow/carousel -->
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <a href="https://colombia.inaturalist.org/taxa/56019-Agapanthus-africanus" target="_blank">
-          <img src="img/flor_1.jpg" alt="lirio_africano" class="d-block w-100">
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+      </div>
+
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="https://colombia.inaturalist.org/taxa/56019-Agapanthus-africanus" target="_blank">
+            <img src="img/flor_1.jpg" alt="lirio_africano" class="d-block w-100">
+            <div class="carousel-caption">
+              <h3>Lirio Africano</h3>
+              <p>Elegancia, Belleza, Resistencia</p>
+            </div>
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="https://www.academiadelperfume.com/la-lavanda-y-sus-curiosidades/" target="_blank">
+            <img src="img/flor_2.jpg" alt="lavanda" class="d-block w-100">
+            <div class="carousel-caption">
+              <h3>Lavanda</h3>
+              <p>Calma, Pureza, Devoción</p>
+            </div>
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="https://www.jal.co.jp/es/es/guide-to-japan/experiences/cherry-blossom/what-do-cherry-blossoms-represent/index.html"
+            target="_blank">
+            <img src="img/flor_3.jpg" alt="flor de cereso" class="d-block w-100">
+            <div class="carousel-caption">
+              <h3>Flor de Cerezo</h3>
+              <p>Renovación, Belleza Efímera</p>
+            </div>
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="https://www.gob.mx/snics/articulos/dalia-simbolo-de-la-floricultura-nacional" target="_blank">
+            <img src="img/flor_4.jpg" alt="dalia negra" class="d-block w-100">
+          </a>
           <div class="carousel-caption">
-            <h3>Lirio Africano</h3>
+            <h3>Dalia Negra</h3>
             <p>Elegancia, Belleza, Resistencia</p>
           </div>
-        </a>
-      </div>
-      <div class="carousel-item">
-        <a href="https://www.academiadelperfume.com/la-lavanda-y-sus-curiosidades/" target="_blank">
-          <img src="img/flor_2.jpg" alt="lavanda" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <a href="https://www.interflora.es/blog/colores-de-la-margarita/" target="_blank">
+            <img src="img/flor_5.jpg" alt="margaritas" class="d-block w-100">
+          </a>
           <div class="carousel-caption">
-            <h3>Lavanda</h3>
-            <p>Calma, Pureza, Devoción</p>
+            <h3>Margaritas</h3>
+            <p>Amistad, Pureza, Alegría</p>
           </div>
-        </a>
-      </div>
-      <div class="carousel-item">
-        <a href="https://www.jal.co.jp/es/es/guide-to-japan/experiences/cherry-blossom/what-do-cherry-blossoms-represent/index.html"
-          target="_blank">
-          <img src="img/flor_3.jpg" alt="flor de cereso" class="d-block w-100">
-          <div class="carousel-caption">
-            <h3>Flor de Cerezo</h3>
-            <p>Renovación, Belleza Efímera</p>
-          </div>
-        </a>
-      </div>
-      <div class="carousel-item">
-        <a href="https://www.gob.mx/snics/articulos/dalia-simbolo-de-la-floricultura-nacional" target="_blank">
-          <img src="img/flor_4.jpg" alt="dalia negra" class="d-block w-100">
-        </a>
-        <div class="carousel-caption">
-          <h3>Dalia Negra</h3>
-          <p>Elegancia, Belleza, Resistencia</p>
         </div>
       </div>
-      <div class="carousel-item">
-        <a href="https://www.interflora.es/blog/colores-de-la-margarita/" target="_blank">
-          <img src="img/flor_5.jpg" alt="margaritas" class="d-block w-100">
-        </a>
-        <div class="carousel-caption">
-          <h3>Margaritas</h3>
-          <p>Amistad, Pureza, Alegría</p>
-        </div>
-      </div>
-    </div>
 
-    <!-- Left and right controls/icons -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </button>
+      <!-- Left and right controls/icons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
   </div>
 
 
+  <!-- fin carousel -->
+
+
   <!-- inicio de la card -->
-  <div class="container-fluid" style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+  <div class="container-fluid"
+    style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
     <h2>Perfil de usuario</h2>
     <div class="card" style="width:400px">
       <img class="card-img-top" src="img/img_avatar1.png" alt="Card image" style="width:100%">
       <div class="card-body">
         <h4 class="card-title">David Sanchez</h4>
         <p class="card-text">Estudiante de ingenieria en sistemas de septimo semestre</p>
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal" style="display: block; margin: 0 auto;">ver Perfil</button>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal"
+          style="display: block; margin: 0 auto;">ver Perfil</button>
       </div>
     </div>
     <br>
@@ -101,86 +109,94 @@
   <!-- ----------------------------------------------------------------------------------------------------------------------  -->
 
   <!-- The Modal -->
-   <div class="container">
+  <div class="container">
     <div class="modal" id="myModal" style="color: black;">
-    <div class="modal-dialog">
-      <div class="modal-content">
+      <div class="modal-dialog">
+        <div class="modal-content">
 
-        <!-- Modal Header -->
-        <div class="modal-header">
-          <h4 class="modal-title">¿Quien soy?</h4>
-          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-        </div>
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">¿Quien soy?</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
 
-        <!-- Modal body -->
-        <div class="modal-body">
-          <p><b>Nombre: </b>David Leonardo Sanchez Guerra</p>
-          <p><b>Email: </b>davidleonardosanchez224@gmail.com</p>
-          <p><b>telefono: </b>3026347345</p>
-          <p><b>Direccion: </b>Calle 9 #36-21</p>
-          <p><b>Proposito: </b>Soy el programador de esta página y mi objetivo es compartir información interesante y educativa sobre las
-          flores.
-          A través de este sitio, quiero mostrar la belleza, el simbolismo y la importancia de las flores en nuestras
-          vidas.
-          Espero que disfrutes explorando este contenido tanto como yo disfruté creándolo.
-        </p>
-        </div>
-        <img src="img/img_avatar1.png" alt="">
+          <!-- Modal body -->
+          <div class="modal-body">
+            <p><b>Nombre: </b>David Leonardo Sanchez Guerra</p>
+            <p><b>Email: </b>davidleonardosanchez224@gmail.com</p>
+            <p><b>telefono: </b>3026347345</p>
+            <p><b>Direccion: </b>Calle 9 #36-21</p>
+            <p><b>Proposito: </b>Soy el programador de esta página y mi objetivo es compartir información interesante y
+              educativa sobre las
+              flores.
+              A través de este sitio, quiero mostrar la belleza, el simbolismo y la importancia de las flores en
+              nuestras
+              vidas.
+              Espero que disfrutes explorando este contenido tanto como yo disfruté creándolo.
+            </p>
+          </div>
+          <img src="img/img_avatar1.png" alt="">
 
-        <!-- Modal footer -->
-        <div class="modal-footer">
-          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+          </div>
         </div>
       </div>
     </div>
+
   </div>
-  
-   </div>
   <!-- fin de modal -->
 
 
-  <div class="container">
+  <div class="container-fluid"
+    style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
     <h1>Descubre la Magia de las Flores</h1>
   </div>
 
-  <div class="container-fluid">
+  <div class="container-fluid"
+    style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
     <h2>¡Bienvenidos a mi página dedicada a las flores!</h2>
     <p>Explora la belleza y el significado de las flores a través de nuestra galería y contenido especial.</p>
   </div>
 
   <!-- inicio de barra de navegacion -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid" style="background-color: #a3798b;">
-      <a class="navbar-brand" href="#">Flowers</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Galeria</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Nosotros
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Redes sociales</a></li>
-              <li><a class="dropdown-item" href="#">Historia</a></li>
-              <li>
-                <hr class="dropdown-divider" />
-              </li>
-              <li><a class="dropdown-item" href="#">contactanos</a></li>
-            </ul>
-          </li>
-        </ul>
+  <div class="container-fliud" style="width: 100%;">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid" style="background-color: #a3798b;">
+        <a class="navbar-brand" href="#">Flowers</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Galeria</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Nosotros
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Redes sociales</a></li>
+                <li><a class="dropdown-item" href="#">Historia</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li><a class="dropdown-item" href="#">contactanos</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
+
 
   <!-- fin barra de navegacion -->
 
